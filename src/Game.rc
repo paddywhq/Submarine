@@ -1,0 +1,283 @@
+#define ICO_ICON 1000
+ICO_ICON ICON "res/icon.ico"
+
+#define IDB_SHIP 1
+IDB_SHIP BITMAP "res/ship.bmp"
+#define IDB_SHIP_MASK 3
+IDB_SHIP_MASK BITMAP "res/ship_mask.bmp"
+
+#define IDB_BACKGROUND 2
+IDB_BACKGROUND BITMAP "res/background.bmp"
+#define IDB_BACKGROUND_GAMEOVER 30
+IDB_BACKGROUND_GAMEOVER BITMAP "res/gameover.bmp"
+#define IDB_BACKGROUND_PAUSE 37
+IDB_BACKGROUND_PAUSE BITMAP "res/pause.bmp"
+#define IDB_BACKGROUND_DIE 38
+IDB_BACKGROUND_DIE BITMAP "res/die.bmp"
+
+#define IDB_BOMB_MIDDLE 4
+IDB_BOMB_MIDDLE BITMAP "res/bomb_middle.bmp"
+#define IDB_BOMB_MIDDLE_MASK 5
+IDB_BOMB_MIDDLE_MASK BITMAP "res/bomb_middle_mask.bmp"
+#define IDB_BOMB_LEFT 10
+IDB_BOMB_LEFT BITMAP "res/bomb_left.bmp"
+#define IDB_BOMB_LEFT_MASK 11
+IDB_BOMB_LEFT_MASK BITMAP "res/bomb_left_mask.bmp"
+#define IDB_BOMB_RIGHT 12
+IDB_BOMB_RIGHT BITMAP "res/bomb_right.bmp"
+#define IDB_BOMB_RIGHT_MASK 13
+IDB_BOMB_RIGHT_MASK BITMAP "res/bomb_right_mask.bmp"
+
+#define IDB_SUB1_LEFT 6
+IDB_SUB1_LEFT BITMAP "res/sub1_left.bmp"
+#define IDB_SUB1_LEFT_MASK 7
+IDB_SUB1_LEFT_MASK BITMAP "res/sub1_left_mask.bmp"
+#define IDB_SUB1_RIGHT 8
+IDB_SUB1_RIGHT BITMAP "res/sub1_right.bmp"
+#define IDB_SUB1_RIGHT_MASK 9
+IDB_SUB1_RIGHT_MASK BITMAP "res/sub1_right_mask.bmp"
+
+#define IDB_SUB2_LEFT 14
+IDB_SUB2_LEFT BITMAP "res/sub2_left.bmp"
+#define IDB_SUB2_LEFT_MASK 15
+IDB_SUB2_LEFT_MASK BITMAP "res/sub2_left_mask.bmp"
+#define IDB_SUB2_RIGHT 16
+IDB_SUB2_RIGHT BITMAP "res/sub2_right.bmp"
+#define IDB_SUB2_RIGHT_MASK 17
+IDB_SUB2_RIGHT_MASK BITMAP "res/sub2_right_mask.bmp"
+
+#define IDB_SUB3_LEFT 18
+IDB_SUB3_LEFT BITMAP "res/sub3_left.bmp"
+#define IDB_SUB3_LEFT_MASK 19
+IDB_SUB3_LEFT_MASK BITMAP "res/sub3_left_mask.bmp"
+#define IDB_SUB3_RIGHT 20
+IDB_SUB3_RIGHT BITMAP "res/sub3_right.bmp"
+#define IDB_SUB3_RIGHT_MASK 21
+IDB_SUB3_RIGHT_MASK BITMAP "res/sub3_right_mask.bmp"
+
+#define IDB_SUB4_LEFT 31
+IDB_SUB4_LEFT BITMAP "res/sub4_left.bmp"
+#define IDB_SUB4_LEFT_MASK 32
+IDB_SUB4_LEFT_MASK BITMAP "res/sub4_left_mask.bmp"
+#define IDB_SUB4_RIGHT 33
+IDB_SUB4_RIGHT BITMAP "res/sub4_right.bmp"
+#define IDB_SUB4_RIGHT_MASK 34
+IDB_SUB4_RIGHT_MASK BITMAP "res/sub4_right_mask.bmp"
+
+#define IDB_TORPEDO 22
+IDB_TORPEDO BITMAP "res/torpedo.bmp"
+#define IDB_TORPEDO_MASK 23
+IDB_TORPEDO_MASK BITMAP "res/torpedo_mask.bmp"
+
+#define IDB_MISSILE_MIDDLE	24
+IDB_MISSILE_MIDDLE BITMAP "res/missile_middle.bmp"
+#define IDB_MISSILE_MIDDLE_MASK 25
+IDB_MISSILE_MIDDLE_MASK BITMAP "res/missile_middle_mask.bmp"
+#define IDB_MISSILE_LEFT 26
+IDB_MISSILE_LEFT BITMAP "res/missile_left.bmp"
+#define IDB_MISSILE_LEFT_MASK 27
+IDB_MISSILE_LEFT_MASK BITMAP "res/missile_left_mask.bmp"
+#define IDB_MISSILE_RIGHT 28
+IDB_MISSILE_RIGHT BITMAP "res/missile_right.bmp"
+#define IDB_MISSILE_RIGHT_MASK 29
+IDB_MISSILE_RIGHT_MASK BITMAP "res/missile_right_mask.bmp"
+
+#define IDB_BOOM1 56
+IDB_BOOM1 BITMAP "res/boom1.bmp"
+#define IDB_BOOM1_MASK 57
+IDB_BOOM1_MASK BITMAP "res/boom1_mask.bmp"
+#define IDB_BOOM2 58
+IDB_BOOM2 BITMAP "res/boom2.bmp"
+#define IDB_BOOM2_MASK 59
+IDB_BOOM2_MASK BITMAP "res/boom2_mask.bmp"
+#define IDB_BOOM3 60
+IDB_BOOM3 BITMAP "res/boom3.bmp"
+#define IDB_BOOM3_MASK 61
+IDB_BOOM3_MASK BITMAP "res/boom3_mask.bmp"
+#define IDB_BOOM4 62
+IDB_BOOM4 BITMAP "res/boom4.bmp"
+#define IDB_BOOM4_MASK 63
+IDB_BOOM4_MASK BITMAP "res/boom4_mask.bmp"
+#define IDB_BOOM5 64
+IDB_BOOM5 BITMAP "res/boom5.bmp"
+#define IDB_BOOM5_MASK 65
+IDB_BOOM5_MASK BITMAP "res/boom5_mask.bmp"
+#define IDB_BOOM6 66
+IDB_BOOM6 BITMAP "res/boom6.bmp"
+#define IDB_BOOM6_MASK 67
+IDB_BOOM6_MASK BITMAP "res/boom6_mask.bmp"
+#define IDB_BOOM7 68
+IDB_BOOM7 BITMAP "res/boom7.bmp"
+#define IDB_BOOM7_MASK 69
+IDB_BOOM7_MASK BITMAP "res/boom7_mask.bmp"
+#define IDB_BOOM8 70
+IDB_BOOM8 BITMAP "res/boom8.bmp"
+#define IDB_BOOM8_MASK 71
+IDB_BOOM8_MASK BITMAP "res/boom8_mask.bmp"
+#define IDB_BOOM9 72
+IDB_BOOM9 BITMAP "res/boom9.bmp"
+#define IDB_BOOM9_MASK 73
+IDB_BOOM9_MASK BITMAP "res/boom9_mask.bmp"
+#define IDB_BOOM10 74
+IDB_BOOM10 BITMAP "res/boom10.bmp"
+#define IDB_BOOM10_MASK 75
+IDB_BOOM10_MASK BITMAP "res/boom10_mask.bmp"
+#define IDB_BOOM11 76
+IDB_BOOM11 BITMAP "res/boom11.bmp"
+#define IDB_BOOM11_MASK 77
+IDB_BOOM11_MASK BITMAP "res/boom11_mask.bmp"
+#define IDB_BOOM12 99
+IDB_BOOM12 BITMAP "res/boom12.bmp"
+#define IDB_BOOM12_MASK 78
+IDB_BOOM12_MASK BITMAP "res/boom12_mask.bmp"
+#define IDB_BOOM13 79
+IDB_BOOM13 BITMAP "res/boom13.bmp"
+#define IDB_BOOM13_MASK 80
+IDB_BOOM13_MASK BITMAP "res/boom13_mask.bmp"
+#define IDB_BOOM14 81
+IDB_BOOM14 BITMAP "res/boom14.bmp"
+#define IDB_BOOM14_MASK 82
+IDB_BOOM14_MASK BITMAP "res/boom14_mask.bmp"
+#define IDB_BOOM15 83
+IDB_BOOM15 BITMAP "res/boom15.bmp"
+#define IDB_BOOM15_MASK 84
+IDB_BOOM15_MASK BITMAP "res/boom15_mask.bmp"
+#define IDB_BOOM16 85
+IDB_BOOM16 BITMAP "res/boom16.bmp"
+#define IDB_BOOM16_MASK 86
+IDB_BOOM16_MASK BITMAP "res/boom16_mask.bmp"
+#define IDB_BOOM17 87
+IDB_BOOM17 BITMAP "res/boom17.bmp"
+#define IDB_BOOM17_MASK 88
+IDB_BOOM17_MASK BITMAP "res/boom17_mask.bmp"
+#define IDB_BOOM18 89
+IDB_BOOM18 BITMAP "res/boom18.bmp"
+#define IDB_BOOM18_MASK 90
+IDB_BOOM18_MASK BITMAP "res/boom18_mask.bmp"
+#define IDB_BOOM19 91
+IDB_BOOM19 BITMAP "res/boom19.bmp"
+#define IDB_BOOM19_MASK 92
+IDB_BOOM19_MASK BITMAP "res/boom19_mask.bmp"
+#define IDB_BOOM20 93
+IDB_BOOM20 BITMAP "res/boom20.bmp"
+#define IDB_BOOM20_MASK 94
+IDB_BOOM20_MASK BITMAP "res/boom20_mask.bmp"
+#define IDB_BOOM21 95
+IDB_BOOM21 BITMAP "res/boom21.bmp"
+#define IDB_BOOM21_MASK 96
+IDB_BOOM21_MASK BITMAP "res/boom21_mask.bmp"
+#define IDB_BOOM22 97
+IDB_BOOM22 BITMAP "res/boom22.bmp"
+#define IDB_BOOM22_MASK 98
+IDB_BOOM22_MASK BITMAP "res/boom22_mask.bmp"
+
+#define IDB_NUMBER0 100
+IDB_NUMBER0 BITMAP "res/0.bmp"
+#define IDB_NUMBER1 102
+IDB_NUMBER1 BITMAP "res/1.bmp"
+#define IDB_NUMBER2 104
+IDB_NUMBER2 BITMAP "res/2.bmp"
+#define IDB_NUMBER3 106
+IDB_NUMBER3 BITMAP "res/3.bmp"
+#define IDB_NUMBER4 108
+IDB_NUMBER4 BITMAP "res/4.bmp"
+#define IDB_NUMBER5 110
+IDB_NUMBER5 BITMAP "res/5.bmp"
+#define IDB_NUMBER6 112
+IDB_NUMBER6 BITMAP "res/6.bmp"
+#define IDB_NUMBER7 114
+IDB_NUMBER7 BITMAP "res/7.bmp"
+#define IDB_NUMBER8 116
+IDB_NUMBER8 BITMAP "res/8.bmp"
+#define IDB_NUMBER9 118
+IDB_NUMBER9 BITMAP "res/9.bmp"
+
+#define IDB_LIFE 120
+IDB_LIFE BITMAP "res/life.bmp"
+#define IDB_LIFE_MASK 121
+IDB_LIFE_MASK BITMAP "res/life_mask.bmp"
+#define IDB_POINT 122
+IDB_POINT BITMAP "res/point.bmp"
+#define IDB_POINT_MASK 123
+IDB_POINT_MASK BITMAP "res/point_mask.bmp"
+#define IDB_LEVEL 124
+IDB_LEVEL BITMAP "res/level.bmp"
+#define IDB_LEVEL_MASK 125
+IDB_LEVEL_MASK BITMAP "res/level_mask.bmp"
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#define IDM_MAIN    0x1000
+#define IDA_MAIN    0x1000
+#define IDM_START	0x1001
+#define IDM_PAUSE	0x1002
+#define IDM_EXIT	0x1003
+#define IDM_INFO	0x1004
+#define IDM_ABOUT	0x1005
+#define IDM_CONTINUE 0x1006
+#define IDM_MUSIC 0x1007
+#define IDM_SOUND_EFFECT 0x1008
+#define IDM_LEVEL1 0x1011
+#define IDM_LEVEL2 0x1012
+#define IDM_LEVEL3 0x1013
+#define IDM_LEVEL4 0x1014
+#define IDM_LEVEL5 0x1015
+#define IDM_LEVEL6 0x1016
+#define IDM_LEVEL7 0x1017
+#define IDM_LEVEL8 0x1018
+#define IDM_LEVEL9 0x1019
+#define IDM_LEVEL0 0x1010
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+IDM_MAIN menu discardable
+BEGIN
+	popup "Menu"
+	BEGIN
+		menuitem "New Game(&N)", IDM_START
+		menuitem "Pause(&P)", IDM_PAUSE
+		menuitem separator
+		menuitem "Background Music", IDM_MUSIC, CHECKED
+		menuitem "Sound Effect",	IDM_SOUND_EFFECT, CHECKED
+		menuitem separator
+		menuitem "Exit(&E)", IDM_EXIT
+	END
+	popup "Help"
+	BEGIN
+		menuitem "Game Guide(&G)", IDM_INFO
+		menuitem separator
+		menuitem "About(&A)", IDM_ABOUT
+	END
+    popup "Level"
+    BEGIN
+    menuitem "Level1(&1)", IDM_LEVEL1
+    menuitem "Level2(&2)", IDM_LEVEL2
+    menuitem "Level3(&3)", IDM_LEVEL3
+    menuitem "Level4(&4)", IDM_LEVEL4
+    menuitem "Level5(&5)", IDM_LEVEL5
+    menuitem "Level6(&6)", IDM_LEVEL6
+    menuitem "Level7(&7)", IDM_LEVEL7
+    menuitem "Level8(&8)", IDM_LEVEL8
+    menuitem "Level9(&9)", IDM_LEVEL9
+    menuitem "Extremly Hard Level0(&0)", IDM_LEVEL0
+    END
+END
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+IDA_MAIN accelerators
+BEGIN
+	"^N", IDM_START
+	"^O", IDM_CONTINUE
+	"^P", IDM_PAUSE
+	"^E", IDM_EXIT
+	"^A", IDM_ABOUT
+	"^G", IDM_INFO
+	"^M", IDM_MUSIC
+	"^S", IDM_SOUND_EFFECT
+    "1", IDM_LEVEL1
+    "2", IDM_LEVEL2
+    "3", IDM_LEVEL3
+    "4", IDM_LEVEL4
+    "5", IDM_LEVEL5
+    "6", IDM_LEVEL6
+    "7", IDM_LEVEL7
+    "8", IDM_LEVEL8
+    "9", IDM_LEVEL9
+    "0", IDM_LEVEL0
+END
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
